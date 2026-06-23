@@ -1,0 +1,41 @@
+<svg width="500" height="350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background - underwater theme -->
+  <rect width="500" height="350" fill="#1E90FF"/>
+  
+  <!-- Water effect gradient -->
+  <rect width="500" height="350" fill="url(#waterGradient)"/>
+  <defs>
+    <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4DB8FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#003366;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Fish 1 -->
+  <ellipse cx="100" cy="100" rx="30" ry="20" fill="#FFD700"/>
+  <polygon points="130,100 160,90 160,110" fill="#FFD700"/>
+  <circle cx="145" cy="95" r="4" fill="#000"/>
+  
+  <!-- Fish 2 -->
+  <ellipse cx="400" cy="200" rx="25" ry="15" fill="#FF6B6B"/>
+  <polygon points="425,200 450,195 450,205" fill="#FF6B6B"/>
+  <circle cx="440" cy="198" r="3" fill="#000"/>
+  
+  <!-- Jellyfish -->
+  <circle cx="250" cy="80" r="20" fill="#FFB6C1" opacity="0.7"/>
+  <path d="M 240 100 Q 235 130 237 160" stroke="#FFB6C1" stroke-width="3" fill="none"/>
+  <path d="M 250 100 Q 250 135 252 165" stroke="#FFB6C1" stroke-width="3" fill="none"/>
+  <path d="M 260 100 Q 265 130 263 160" stroke="#FFB6C1" stroke-width="3" fill="none"/>
+  
+  <!-- Bubbles -->
+  <circle cx="80" cy="150" r="8" fill="#87CEEB" opacity="0.5"/>
+  <circle cx="450" cy="100" r="6" fill="#87CEEB" opacity="0.5"/>
+  <circle cx="200" cy="250" r="7" fill="#87CEEB" opacity="0.5"/>
+  
+  <!-- Seaweed -->
+  <path d="M 50 250 Q 45 200 55 150" stroke="#228B22" stroke-width="4" fill="none"/>
+  <path d="M 470 280 Q 475 230 465 180" stroke="#228B22" stroke-width="4" fill="none"/>
+  
+  <!-- Text -->
+  <text x="250" y="330" font-size="32" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Aquatic Beats Party</text>
+</svg>

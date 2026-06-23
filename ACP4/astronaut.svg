@@ -1,0 +1,30 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Astronaut body suit -->
+  <rect x="80" y="120" width="140" height="120" fill="#E0E0E0" rx="20"/>
+  
+  <!-- Helmet -->
+  <circle cx="150" cy="90" r="45" fill="#87CEEB" opacity="0.7" stroke="#4A90E2" stroke-width="3"/>
+  
+  <!-- Helmet visor shine -->
+  <ellipse cx="135" cy="75" rx="15" ry="20" fill="#FFFFFF" opacity="0.4"/>
+  
+  <!-- Arms -->
+  <rect x="40" y="130" width="40" height="20" fill="#E0E0E0" rx="10"/>
+  <rect x="220" y="130" width="40" height="20" fill="#E0E0E0" rx="10"/>
+  
+  <!-- Gloves -->
+  <circle cx="35" cy="140" r="12" fill="#FFD700"/>
+  <circle cx="265" cy="140" r="12" fill="#FFD700"/>
+  
+  <!-- Legs -->
+  <rect x="100" y="235" width="25" height="50" fill="#E0E0E0" rx="5"/>
+  <rect x="175" y="235" width="25" height="50" fill="#E0E0E0" rx="5"/>
+  
+  <!-- Boots -->
+  <ellipse cx="112.5" cy="290" rx="15" ry="10" fill="#333333"/>
+  <ellipse cx="187.5" cy="290" rx="15" ry="10" fill="#333333"/>
+  
+  <!-- Chest emblem -->
+  <circle cx="150" cy="170" r="15" fill="#FF6B6B"/>
+  <text x="150" y="175" font-size="16" fill="#FFFFFF" text-anchor="middle">A</text>
+</svg>
