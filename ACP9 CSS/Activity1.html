@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Restaurant Menu Card</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Georgia, serif;
+            background: linear-gradient(135deg, #fff8e7, #ffe0b2);
+            color: #3b2f2f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 24px;
+        }
+
+        .menu-card {
+            width: min(90%, 650px);
+            padding: 30px;
+            border: 3px solid #8b4513;
+            border-radius: 20px;
+            background-color: #fffaf2;
+            box-shadow: 0 0 25px rgba(139, 69, 19, 0.35);
+        }
+
+        .restaurant-name {
+            margin: 0 0 8px;
+            font-size: 42px;
+            font-weight: 700;
+            text-align: center;
+            color: #8b0000;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 2px 2px 4px #d2b48c;
+        }
+
+        .tagline {
+            margin: 0 0 20px;
+            font-size: 18px;
+            font-style: italic;
+            text-align: center;
+            color: #6b4226;
+            text-decoration: underline;
+        }
+
+        .menu-section {
+            margin-bottom: 20px;
+            padding: 18px;
+            border: 2px solid #d2b48c;
+            border-radius: 12px;
+            background-color: #fffdf8;
+            box-shadow: 0 0 10px rgba(210, 180, 140, 0.35);
+        }
+
+        .section-title {
+            margin: 0 0 12px;
+            font-size: 26px;
+            font-weight: bold;
+            color: #a0522d;
+            text-transform: capitalize;
+            text-decoration: overline;
+            letter-spacing: 1px;
+        }
+
+        .dish {
+            margin: 0 0 6px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #4b0082;
+            text-transform: capitalize;
+            transition: transform 0.3s ease;
+        }
+
+        .dish:hover {
+            transform: scale(1.1);
+        }
+
+        .dish-description {
+            margin: 0 0 14px;
+            font-size: 15px;
+            line-height: 1.6;
+            text-indent: 30px;
+            color: #555555;
+        }
+
+        .special-offer {
+            margin: 18px 0 0;
+            padding: 12px 16px;
+            font-size: 22px;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #b22222;
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 3px #000000;
+            box-shadow: 0 0 15px #b22222;
+            transform: rotate(-2deg);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu-card">
+        <h1 class="restaurant-name">Tasty Treat Cafe</h1>
+        <p class="tagline">Fresh food, happy mood!</p>
+
+        <div class="menu-section">
+            <h2 class="section-title">Starters</h2>
+            <p class="dish">Cheesy Garlic Bread</p>
+            <p class="dish-description">Crispy bread topped with melted cheese, garlic butter, and fresh herbs.</p>
+            <p class="dish">Spicy Corn Bites</p>
+            <p class="dish-description">Crunchy corn bites served with a tangy dip for a perfect evening snack.</p>
+        </div>
+
+        <div class="menu-section">
+            <h2 class="section-title">Main Course</h2>
+            <p class="dish">Creamy Pasta Bowl</p>
+            <p class="dish-description">Soft pasta cooked in creamy sauce with vegetables and delicious seasoning.</p>
+            <p class="dish">Veggie Pizza</p>
+            <p class="dish-description">A colorful pizza loaded with fresh vegetables, cheese, and tasty sauce.</p>
+        </div>
+
+        <p class="special-offer">Weekend Special: 20% Off!</p>
+    </div>
+</body>
+
+</html>
