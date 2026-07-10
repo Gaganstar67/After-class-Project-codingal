@@ -1,0 +1,113 @@
+<html>
+
+<head>
+    <title>My Ice Cream Shop</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: lightyellow;
+            padding: 30px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #e65c00;
+        }
+
+        /* Sibling Selector - styles the paragraph right after the h1 */
+        h1+p {
+            background-color: Blue;
+            padding: 10px 20px;
+            border-radius: 8px;
+            color: red;
+            display: inline-block;
+
+        }
+
+        ul {
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        /* Child Selector - styles only direct li children of ul */
+        ul>li {
+            list-style: none;
+            font-size: 18px;
+            font-weight: bold;
+            color: blue;
+            padding: 10px 20px;
+            margin: 6px auto;
+            width: 260px;
+            background-color: lightgreen;
+            border-radius: 8px;
+        }
+
+        /* nth child - highlights the 3rd item as Chef`s Special */
+        ul>li:nth-child(3) {
+            background-color: lightseagreen;
+            color: blueviolet;
+        }
+
+        .desc {
+            color: #555;
+            margin-top: 20px;
+            font-size: 15px;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* first-letter - makes the first letter big and bold */
+        .desc::first-letter {
+            font-size: 220%;
+            color: #e65c00;
+            font-weight: bold;
+        }
+
+        .links {
+            margin-top: 25px
+        }
+
+        /* Hover Effect - links glow when mousw  moves over them */
+        a {
+            color: darkblue;
+            text-decoration: none;
+            font: size 15px;
+            margin: 0 12px;
+            padding: 8px 18px;
+            border: 2px solid LightBlue;
+            border-radius: 8px;
+
+        }
+
+        a:hover {
+            background-color: orange;
+            color: white;
+
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <h1>The Ice Magic</h1>
+    <p>Pick your favorite flavor and enjoy!</p>
+
+    <ul>
+        <li>Vanilla</li>
+        <li>Strawberry </li>
+        <li>Chocolate-The Special one</li>
+        <li>Blueberry</li>
+        <li>Mint Chocolate Chip</li>
+    </ul>
+
+    <p class="desc">Every ice cream on this menu is made with love and loads of flavor! Try them all and find your favourite!</p>
+
+    <div class="links">
+        <a href="#">Order Now</a>
+        <a href="#">See More</a>
+    </div>
+</body>
+
+</html>
